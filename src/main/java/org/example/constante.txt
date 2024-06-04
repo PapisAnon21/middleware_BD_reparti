@@ -1,3 +1,7 @@
 url_site_1 = "http://192.168.0.251:3306/site1";
 url_site_2 = "http://192.168.0.252:3306/site2";
 url_site_3 = "http://192.168.0.253:3306/site3";
+
+politique de replication : le site 1 contient non seulement ces données et aussi celui du site 2
+    le site 2  contient egalemnt celui du site 3
+    le site 3 contient egalemnt celui du site 1
