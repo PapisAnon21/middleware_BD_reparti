@@ -16,21 +16,18 @@ public class ProductPart2 {
     @DatabaseField
     private String quantite_restante;
 
-// les colones de l'autre table
-   // @DatabaseField
-    //private String nb_commande;
 
-    //public void setNb_commande(String nb_commande) {
-       // this.nb_commande = nb_commande;
-    //}
+    public int getId() {
+        return id;
+    }
 
-   // public void setProvenance(String provenance) {
-    //    this.provenance = provenance;
-   // }
+    public String getPrix_unitaire() {
+        return prix_unitaire;
+    }
 
-    //@DatabaseField
-    //private String provenance;
-
+    public String getQuantite_restante() {
+        return quantite_restante;
+    }
 
     public void setPrix_unitaire(String prix_unitaire) {
         this.prix_unitaire = prix_unitaire;

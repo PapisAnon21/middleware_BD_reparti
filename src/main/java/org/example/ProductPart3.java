@@ -15,12 +15,19 @@ public class ProductPart3 {
 
     @DatabaseField
     private String provenance;
-// les colones de l'autre table
-    //@DatabaseField
-   // private String designation;
 
-   // @DatabaseField
-    private String description;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNb_commande() {
+        return nb_commande;
+    }
+
+    public String getProvenance() {
+        return provenance;
+    }
 
     public void setProvenance(String provenance) {
         this.provenance = provenance;

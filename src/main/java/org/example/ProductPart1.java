@@ -36,6 +36,18 @@ public class ProductPart1 {
         this.designation = designation;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public void setDescription(String description) {
         this.description = description;
     }
